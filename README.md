@@ -31,3 +31,16 @@ Update checksums.
 ```sh
 ❯ makepkg -g -f -p PKGBUILD
 ```
+
+Publish changes to the AUR, where `$pkgbase` is the name of the package.
+
+```sh
+❯ cd $pkgbase
+❯ git init
+❯ git remote add origin ssh://aur@aur.archlinux.org/$pkgbase
+❯ git fetch origin
+❯ git switch master
+❯ git add -A
+❯ git commit -m "..."
+❯ git push
+```
