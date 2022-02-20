@@ -1,0 +1,6 @@
+[submodule "jujutsu"]
+	path = jujutsu
+	url = ssh://aur@aur.archlinux.org/jujutsu
+[submodule "jujutsu-git"]
+	path = jujutsu-git
+	url = ssh://aur@aur.archlinux.org/jujutsu-git
