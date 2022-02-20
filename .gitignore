@@ -1,0 +1,8 @@
+*
+
+!jujutsu
+!jujutsu-git
+
+!.gitignore
+!.gitignore.tmpl
+!README.md
