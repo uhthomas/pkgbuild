@@ -20,16 +20,16 @@ Use [namcap](https://wiki.archlinux.org/title/Namcap).
 
 ## Contributing
 
-Always update `.SRCINFO`.
-
-```sh
-❯ makepkg --printsrcinfo > .SRCINFO
-```
-
 Update checksums.
 
 ```sh
 ❯ makepkg -g -f -p PKGBUILD
+```
+
+Always update `.SRCINFO`.
+
+```sh
+❯ makepkg --printsrcinfo > .SRCINFO
 ```
 
 Publish changes to the AUR, where `$pkgbase` is the name of the package.

@@ -2,6 +2,7 @@
 
 !jujutsu
 !jujutsu-git
+!panicparse
 
 !.gitignore
 !.gitignore.tmpl
